@@ -1,0 +1,25 @@
+<html lang="en">
+	<head>
+		<title>Contract Interaction</title>
+		<script src="./index.js"></script>
+		<script src="./jquery-3.5.1.slim.min.js"></script>
+		<script src="./web3.min.js"></script>
+	</head>
+
+	<body onload="init();">
+		<br>
+		<input type="text" id="reqDescription">
+		<input type="button" value="Create" onclick="createRequest();">
+		<br>
+		<br>
+
+		<table id="requestsDashboard">
+			<tr>
+				<th>ID</th>
+				<th>Sender</th>
+				<th>Description</th>
+				<th>Status</th>
+			</tr>
+		</table>
+	</body>
+</html>
