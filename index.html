@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Document</title>
+		<script src="./indecx.js"></script>
+		<script src="./web3.min.js"></script>
+		<script src="./jquery-3.5.1.slim.min.js"></script>
+	</head>
+	
+	<body onload="init();">
+		<br>
+		<input type="text" id="reqDescription">
+		<input type="button" value="Create" onclick="createRequest();">
+		<br>
+		<br>
+
+		<table id="reqTable">
+			<tr>
+				<th>ID</th>
+				<th>SENDER</th>
+				<th>DESCRIPTION</th>
+				<th>STATUS</th>
+			</tr>
+		</table>
+	</body>
+</html>
