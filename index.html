@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contract Interaction</title>
+		<script src="./index.js"></script>
+		<script src="./web3.min.js"></script>
+		<script src="./jquery-3.5.1.slim.min.js"></script>
+	</head>
+	
+	<body onload="init();">
+		<br>
+		<input type="text" id="reqDesField">
+		<input type="button" onclick="createRequest();" value="create">
+		<br>
+		<br>
+
+		<table id="reqTablez">
+			<tr>
+				<th>ID</th>
+				<th>SENDER</th>
+				<th>DESCRIPTION</th>
+				<th>STATUS</th>
+			</tr>
+		</table>
+	</body>
+</html>
