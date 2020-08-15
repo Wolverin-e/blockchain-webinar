@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Document</title>
+		<script src="./index.js"></script>
+		<script src="./jquery-3.5.1.slim.min.js"></script>
+		<script src="./web3.min.js"></script>
+	</head>
+
+	<body onload="init();">
+		<br>
+		<input type="text" id="reqDescription">
+		<input type="button" value="create" onclick="createRequest();">
+		<br>
+		<br>
+
+		<table id="reqTable">
+			<tr>
+				<th>id</th>
+				<th>sender</th>
+				<th>description</th>
+				<th>status</th>
+			</tr>
+		</table>
+	</body>
+</html>
